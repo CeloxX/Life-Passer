@@ -5,12 +5,18 @@ using UnityEngine.UI;
 
 public class GameSession : MonoBehaviour
 {
-    [SerializeField] int score = 0;
+    [SerializeField] public int score = 0;
     [SerializeField] GameObject loseLabel;
     [SerializeField] Text scoreText;
 
+    public static GameSession Instance { get; private set; }
+
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
         int numGameSessions = FindObjectsOfType<GameSession>().Length;
         if (numGameSessions > 1)
         {
