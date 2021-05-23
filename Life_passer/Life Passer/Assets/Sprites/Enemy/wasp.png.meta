@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: ed15527970d067c4f801ce756e693f57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5742915519180568612
+    second: wasp_0
+  - first:
+      213: 1257491796591627126
+    second: wasp_1
+  - first:
+      213: -3170726044727704112
+    second: wasp_2
+  - first:
+      213: 6648589809683353981
+    second: wasp_3
+  - first:
+      213: 7236773976954135281
+    second: wasp_4
+  - first:
+      213: -7686443622257133308
+    second: wasp_5
+  - first:
+      213: 3781307490320444679
+    second: wasp_6
+  - first:
+      213: -5516803091782631063
+    second: wasp_7
+  - first:
+      213: 8214417348572236674
+    second: wasp_8
+  - first:
+      213: -6764082618320937903
+    second: wasp_9
+  - first:
+      213: 1198180514467583585
+    second: wasp_10
+  - first:
+      213: -5397079131701173414
+    second: wasp_11
+  - first:
+      213: 7807057732614563541
+    second: wasp_12
+  - first:
+      213: -826581946319725748
+    second: wasp_13
+  - first:
+      213: -6125858786339665864
+    second: wasp_14
+  - first:
+      213: -1447177422984775588
+    second: wasp_15
+  - first:
+      213: 3748464993835432197
+    second: wasp_16
+  - first:
+      213: -7856116800299479956
+    second: wasp_17
+  - first:
+      213: -8303585092513077438
+    second: wasp_18
+  - first:
+      213: -6063213206385749817
+    second: wasp_19
+  - first:
+      213: 6510441584433985267
+    second: wasp_20
+  - first:
+      213: -4986748182135130519
+    second: wasp_21
+  - first:
+      213: -791124512946213999
+    second: wasp_22
+  - first:
+      213: 6313171234514674771
+    second: wasp_23
+  - first:
+      213: -2940388246728595278
+    second: wasp_24
+  - first:
+      213: 7005595973559139655
+    second: wasp_25
+  - first:
+      213: 1834437330716709845
+    second: wasp_26
+  - first:
+      213: -8450400072841131792
+    second: wasp_27
+  - first:
+      213: 6698833761882231963
+    second: wasp_28
+  - first:
+      213: 6481957465680685568
+    second: wasp_29
+  - first:
+      213: 2541624619040669583
+    second: wasp_30
+  - first:
+      213: 1731971420484968152
+    second: wasp_31
+  - first:
+      213: 505661066480432406
+    second: wasp_32
+  - first:
+      213: -8166836721587717775
+    second: wasp_33
+  - first:
+      213: -4622895218174000821
+    second: wasp_34
+  - first:
+      213: 6115041494603639081
+    second: wasp_35
+  - first:
+      213: 8186923028695111839
+    second: wasp_36
+  - first:
+      213: -4207569200466644044
+    second: wasp_37
+  - first:
+      213: -2111123860066288340
+    second: wasp_38
+  - first:
+      213: -1447671947769543506
+    second: wasp_39
+  - first:
+      213: -2246634403668581030
+    second: wasp_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wasp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f5d7cc3fe2bf40800000000000000
+      internalID: 5742915519180568612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 219
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bcfc36022837110800000000000000
+      internalID: 1257491796591627126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 219
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d50de726715ff3d0800000000000000
+      internalID: -3170726044727704112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 219
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715577c439844c50800000000000000
+      internalID: 6648589809683353981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 220
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f26428079f2e6460800000000000000
+      internalID: 7236773976954135281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_5
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 219
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409fb450044445590800000000000000
+      internalID: -7686443622257133308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 219
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70de213d027e97430800000000000000
+      internalID: 3781307490320444679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 219
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961058a31d06073b0800000000000000
+      internalID: -5516803091782631063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 219
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b44728e097ff170800000000000000
+      internalID: 8214417348572236674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_9
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 219
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c169f32b62122a0800000000000000
+      internalID: -6764082618320937903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_10
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 220
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16692a564dac0a010800000000000000
+      internalID: 1198180514467583585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 281
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53274aef19b915b0800000000000000
+      internalID: -5397079131701173414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_12
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 248
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6257de4ad385c60800000000000000
+      internalID: 7807057732614563541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b9cd769146784f0800000000000000
+      internalID: -826581946319725748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 129
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838c408d3e39cfaa0800000000000000
+      internalID: -6125858786339665864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 130
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58f6002dc79aebe0800000000000000
+      internalID: -1447177422984775588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 130
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5093c8a3d09350430800000000000000
+      internalID: 3748464993835432197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 128
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ccb24c46779f290800000000000000
+      internalID: -7856116800299479956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_18
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 128
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24767864a5db3cc80800000000000000
+      internalID: -8303585092513077438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 130
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c09beb86b32bdba0800000000000000
+      internalID: -6063213206385749817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_20
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 129
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f67e13902cb95a50800000000000000
+      internalID: 6510441584433985267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_21
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 129
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966b28303f28bcab0800000000000000
+      internalID: -4986748182135130519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 128
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bacb0727c5505f0800000000000000
+      internalID: -791124512946213999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_23
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 129
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35426770ac3ec9750800000000000000
+      internalID: 6313171234514674771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_24
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 191
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8220ce774a137d0800000000000000
+      internalID: -2940388246728595278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_25
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 158
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d36e3bb60e83160800000000000000
+      internalID: 7005595973559139655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_26
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 38
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d514780b357910800000000000000
+      internalID: 1834437330716709845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 34
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88e58e7e52aba80800000000000000
+      internalID: -8450400072841131792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 34
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94526280d907fc50800000000000000
+      internalID: 6698833761882231963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 38
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aa61fd8f984f950800000000000000
+      internalID: 6481957465680685568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 37
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f7e4aff1aa54320800000000000000
+      internalID: 2541624619040669583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_31
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 37
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de922f94d2390810800000000000000
+      internalID: 1731971420484968152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 62
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615bf449f08740700800000000000000
+      internalID: 505661066480432406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_33
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 62
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f52f754199ae80800000000000000
+      internalID: -8166836721587717775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 62
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4103eeca4d28dfb0800000000000000
+      internalID: -4622895218174000821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_35
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 62
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929af9827ddfcd450800000000000000
+      internalID: 6115041494603639081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_36
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 100
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9856d05e1bcd9170800000000000000
+      internalID: 8186923028695111839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_37
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 100
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3bf46da16bb95c0800000000000000
+      internalID: -4207569200466644044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_38
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 100
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2db5e3d808c3b2e0800000000000000
+      internalID: -2111123860066288340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea406e99806d8ebe0800000000000000
+      internalID: -1447671947769543506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasp_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a92db9e952d0e0800000000000000
+      internalID: -2246634403668581030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
