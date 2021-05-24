@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameSession : MonoBehaviour
 {
-    [SerializeField] public int score = 0;
+    [SerializeField] int score = 0;
     [SerializeField] GameObject loseLabel;
     [SerializeField] Text scoreText;
 
@@ -33,11 +33,7 @@ public class GameSession : MonoBehaviour
         loseLabel.SetActive(false);
         scoreText.text = score.ToString();
     }
-
-    public float seeScore()
-    {
-        return score;
-    }
+        
 
     public void AddToScore(int pointsToAdd)
     {

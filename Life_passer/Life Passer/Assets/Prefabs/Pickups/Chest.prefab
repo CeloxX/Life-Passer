@@ -117,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinPickUpSFX: {fileID: 8300000, guid: 038ac9972ba538440bc443a8c4152f20, type: 3}
+  coinPickupVFX: {fileID: 4153386669553554938, guid: 92cf4271284f6e54c9d25586bf83384c, type: 3}
   pointsForCoinPickup: 1000
 --- !u!61 &3288047515272804641
 BoxCollider2D:

@@ -67,7 +67,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4236975847097987754, guid: dd736382c0c8e60438abd08f413ca66e, type: 3}
-  force: 2
   projectalPosition: {fileID: 7195975978361973209}
   parent: {fileID: 0}
 --- !u!82 &854109461
@@ -82,7 +81,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 60b239491fae26c4db62d27d450b35d8, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -91,7 +90,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 16.121061
+  MaxDistance: 16
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
