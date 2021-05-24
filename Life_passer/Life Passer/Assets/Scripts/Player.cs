@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        myRigidBody2D.transform.position += Vector3.right * Time.fixedDeltaTime * runningSpeed;
+        myRigidBody2D.transform.position +=  new Vector3(1, 0, 0) * Time.fixedDeltaTime * runningSpeed;
         
         myAnimator.SetBool("Jump", false);
     }
