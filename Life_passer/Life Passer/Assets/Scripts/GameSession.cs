@@ -46,13 +46,8 @@ public class GameSession : MonoBehaviour
     }
     public void HandleLoseCondition()
     {
-        
-        StartCoroutine(Wait());        
-    }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(1);
         Time.timeScale = 0;
         loseLabel.SetActive(true);
     }
+   
 }
