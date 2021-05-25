@@ -88,6 +88,8 @@ MonoBehaviour:
   runningSpeed: 10
   jumpHeight: 25
   jumpDelay: 0.2
+  waitingTimeForMove: 0.5
+  deathVFX: {fileID: 5887605504876150150, guid: 3e020b92538cc2e49aaca18625c19c8b, type: 3}
 --- !u!95 &2196927649315009766
 Animator:
   serializedVersion: 3

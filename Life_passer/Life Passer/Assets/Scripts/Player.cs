@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float jumpHeight = 15f;
     [SerializeField] float jumpDelay = 0.1f;
     [SerializeField] float waitingTimeForMove = 0.5f;
+    [SerializeField] GameObject deathVFX;
 
     bool isAlive;
     float jumpTimer;
@@ -25,12 +26,8 @@ public class Player : MonoBehaviour
         myAnimator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
-    void Start()
-    {
-        StartCoroutine(Wait());
-
-    }
-
+    void Start() =>  StartCoroutine(Wait());
+        
     // Update is called once per frame
     void Update()
     {
@@ -77,7 +74,11 @@ public class Player : MonoBehaviour
     {
         if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
         {
+            GameObject myVFX = Instantiate(deathVFX, transform.position, transform.rotation);
+            Destroy(myVFX, 0.5f);
             isAlive = false;
+            myRigidBody2D.velocity = Vector2.zero;
+            myRigidBody2D.isKinematic = true;            
             myAnimator.SetTrigger("Death");
             GameSession.Instance.HandleLoseCondition();
         }

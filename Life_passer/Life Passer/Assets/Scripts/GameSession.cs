@@ -8,6 +8,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] int score = 0;
     [SerializeField] GameObject loseLabel;
     [SerializeField] Text scoreText;
+    
 
     public static GameSession Instance { get; private set; }
 
@@ -41,9 +42,15 @@ public class GameSession : MonoBehaviour
         scoreText.text = score.ToString();
     }
     public void HandleLoseCondition()
+    {             
+        StartCoroutine(WaitForDeathAnimation());
+    }
+
+    IEnumerator WaitForDeathAnimation()
     {
-        Time.timeScale = 0;
+        yield return new WaitForSeconds(1f);        
         loseLabel.SetActive(true);
+        Time.timeScale = 0;
     }
    
 }
