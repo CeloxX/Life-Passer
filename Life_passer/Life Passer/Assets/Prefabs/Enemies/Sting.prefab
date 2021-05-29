@@ -68,6 +68,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  myCollider: {fileID: 4572677409803756561}
+  myRigidbody: {fileID: 7994401169064286108}
 --- !u!60 &4572677409803756561
 PolygonCollider2D:
   m_ObjectHideFlags: 0

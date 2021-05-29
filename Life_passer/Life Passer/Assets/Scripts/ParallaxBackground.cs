@@ -13,10 +13,7 @@ public class ParallaxBackground : MonoBehaviour
     void Start()
     {
         cameraTransform = Camera.main.transform;
-        lastCameraPosition = cameraTransform.position;
-        
-       
-       
+        lastCameraPosition = cameraTransform.position;      
     }
 
     // Update is called once per frame
@@ -24,8 +21,6 @@ public class ParallaxBackground : MonoBehaviour
     {
         Vector3 deltaMovement = cameraTransform.position - lastCameraPosition;
         transform.position += new Vector3(deltaMovement.x * parallaxMovementMultiplier.x, deltaMovement.y * parallaxMovementMultiplier.y, 0);
-        lastCameraPosition = cameraTransform.position;
-
-        
+        lastCameraPosition = cameraTransform.position;        
     }
 }

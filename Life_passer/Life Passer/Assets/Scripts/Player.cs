@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] float runningSpeed = 10f;
     [SerializeField] float jumpHeight = 15f;
-    [SerializeField] float jumpDelay = 0.1f;
+    [SerializeField] float jumpDelay = 0.5f;
     [SerializeField] float waitingTimeForMove = 0.5f;
     [SerializeField] GameObject deathVFX;
 
@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     {
         if (!isAlive) { return; }
         
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") )
         {
             jumpTimer = Time.time + jumpDelay;
         }
@@ -53,9 +53,7 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        myRigidBody2D.transform.position +=  new Vector3(1, 0, 0) * Time.fixedDeltaTime * runningSpeed;
-        
-        myAnimator.SetBool("Jump", false);
+        myRigidBody2D.transform.position +=  new Vector3(1, 0, 0) * Time.deltaTime * runningSpeed;        
     }
 
 
@@ -65,7 +63,7 @@ public class Player : MonoBehaviour
         myRigidBody2D.gravityScale = 0;
         myRigidBody2D.velocity = new Vector2(myRigidBody2D.velocity.x, 0);
         myRigidBody2D.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
-        myAnimator.SetBool("Jump", true);
+        myAnimator.SetTrigger("Jump");
         myRigidBody2D.gravityScale = 2;
         jumpTimer = 0f;
     }

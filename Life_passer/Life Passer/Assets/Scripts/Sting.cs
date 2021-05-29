@@ -5,24 +5,21 @@ using UnityEngine;
 public class Sting : MonoBehaviour
 {
     [SerializeField] GameObject destroyVFX;
-    Collider2D mycollider;
-    // Start is called before the first frame update
-    void Start()
-    {
-        mycollider = GetComponent<Collider2D>();
-    }
+    [SerializeField] Collider2D myCollider;
+    [SerializeField] Rigidbody2D myRigidbody;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        myRigidbody.velocity = new Vector2(-Random.Range(2, 4), 0);
+    }
     void Update()
     {
-        if (mycollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
+        
+        if (myCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
         {
-
-
             GameObject myVFX = Instantiate(destroyVFX, transform.position, transform.rotation);
             Destroy(myVFX, 0.5f);
             Destroy(gameObject);
-
         }
     }
 }

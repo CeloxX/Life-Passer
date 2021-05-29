@@ -6,21 +6,15 @@ public class Bee : MonoBehaviour
 {
     [SerializeField] GameObject projectilePrefab;    
     [SerializeField] GameObject projectalPosition;
-    [SerializeField] GameObject parent;
-    
+    [SerializeField] GameObject parent;   
 
-    AudioSource myAudioSource;
+    [SerializeField] AudioSource myAudioSource;
 
-    private void Start()
-    {
-        myAudioSource = GetComponent<AudioSource>();
-    }
-
+   
     public void Spawn()
     {
         GameObject projectile = Instantiate(projectilePrefab, projectalPosition.transform.position, Quaternion.identity) as GameObject;
-        projectile.transform.parent = parent.transform;
-        projectile.GetComponent<Rigidbody2D>().velocity = new Vector2(-Random.Range(2, 4), 0);
+        projectile.transform.parent = parent.transform;        
         myAudioSource.Play();
     }
 }

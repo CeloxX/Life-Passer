@@ -8,11 +8,11 @@ public class MusicPlayer : MonoBehaviour
     private void Awake()
     {
         PlayerPrefsController.SetMasterVolume(0.2f);
+        audioSource = GetComponent<AudioSource>();
     }
     void Start()
     {
-        DontDestroyOnLoad(this);
-        audioSource = GetComponent<AudioSource>();
+        DontDestroyOnLoad(this);        
         audioSource.volume = PlayerPrefsController.GetMasterVolume();
     }
 
