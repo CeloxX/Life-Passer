@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        myRigidBody2D.transform.position +=  new Vector3(1, 0, 0) * Time.deltaTime * runningSpeed;        
+        myRigidBody2D.transform.position +=  runningSpeed * Time.deltaTime * new Vector3(1, 0, 0);        
     }
 
 

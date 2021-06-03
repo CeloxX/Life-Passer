@@ -7,18 +7,18 @@ public class OptionsController : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
     [SerializeField] float defaultVolume = 0.2f;
-
+    MusicPlayer musicPlayer;
 
     // Use this for initialization
     void Start()
     {
         volumeSlider.value = PlayerPrefsController.GetMasterVolume();
-
+        musicPlayer = FindObjectOfType<MusicPlayer>();
     }
     // Update is called once per frame
     void Update()
     {
-        var musicPlayer = FindObjectOfType<MusicPlayer>();
+        
         if (musicPlayer)
         {
             musicPlayer.SetVolume(volumeSlider.value);
